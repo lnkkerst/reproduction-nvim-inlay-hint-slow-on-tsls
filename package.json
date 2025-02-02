@@ -1,0 +1,24 @@
+{
+  "name": "nvim-inlay-hint-so-slow",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@grammyjs/auto-retry": "^2.0.2",
+    "@grammyjs/auto-thread": "github:grammyjs/auto-thread",
+    "@grammyjs/commands": "^1.0.4",
+    "@grammyjs/files": "^1.1.1",
+    "@grammyjs/hydrate": "^1.4.1",
+    "@grammyjs/parse-mode": "^1.11.1",
+    "@roziscoding/grammy-autoquote": "^2.0.8",
+    "@types/bun": "latest",
+    "deno2node": "^1.14.0",
+    "grammy": "^1.33.0",
+    "telegraf-middleware-console-time": "^2.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "trustedDependencies": [
+    "@grammyjs/auto-thread"
+  ]
+}
